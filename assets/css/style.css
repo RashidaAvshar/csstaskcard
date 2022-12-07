@@ -746,6 +746,8 @@ padding: 100px;
     margin-bottom: 50px;
     letter-spacing: 1.5px;
 }
+
+
 .contact-details button{
     width: 220px;
     height: 50px;
@@ -760,3 +762,7 @@ padding: 100px;
     
 }
 
+.contact-details button:hover {
+    cursor: pointer;
+    color: blue;
+}
