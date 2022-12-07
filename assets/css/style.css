@@ -616,6 +616,8 @@ padding: 100px;
     display: flex;
     justify-content: space-around;
     font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container-register {
@@ -626,8 +628,6 @@ padding: 100px;
     align-items: center;
     width: 1200px;
     height: 700px;
-    
-
 }
 
 .general-info{
@@ -639,7 +639,7 @@ padding: 100px;
     display: flex;
     flex-direction: column;
     padding: 50px;
-    
+          
 }
 
 .general-input{
@@ -649,54 +649,57 @@ padding: 100px;
 
 .select-general-info{
     border: none;
-    border-bottom: 1px solid gray;
-    
+    border-bottom: 1px solid gray;    
     margin-bottom: 60px;
-    font-size: 15px;
-    
+    font-size: 20px;    
     color: gray;
+    text-indent: 5px;
 }
-
-input .company{
-    
-}
-
-.business-emplo {
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.general-input input, .contact-input input{
+.name input{
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid gray;    
     margin-bottom: 60px;
-    font-size: 15px;
-    padding: 5px;
-    
+    font-size: 20px;    
+    color: gray;
+    text-indent: 5px;
     
 }
-.name{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.general-input input{
+    border: none;
+    border-bottom: 1px solid gray;    
+    margin-bottom: 60px;
+    font-size: 20px;    
+    color: gray;
+    text-indent: 5px;
+}
+.business-emplo input, select{
+    border: none;
+    border-bottom: 1px solid gray;    
+    margin-bottom: 60px;
+    font-size: 20px;    
+    color: gray;
     
     
 }
 
-.business-emplo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: ; 
+
+.employees{
+    width: 50%;
 }
+
+
 .general-info h1{
     color: blue;
     font-size: 40px;    
     margin-bottom: 50px;
     text-align: left;
 }
-
+.contact-details h1{
+    color: white;
+    font-size: 40px;    
+    margin-bottom: 50px;
+    text-align: left;
+}
 
 .contact-details{
    width: 50%;
@@ -707,33 +710,45 @@ input .company{
     display: flex;
     flex-direction: column;
     padding: 50px;
+    color: white;
     
 }
 
-.contact-details h1{
+.contact-input input{
+    border: none;
+    border-bottom: 1px solid gray;    
+    margin-bottom: 60px;
+    font-size: 20px;    
     color: white;
-    font-size: 40px;    
-    margin-bottom: 50px;
-    text-align: left;
-}
-
-.contact-details input, select{
+    text-indent: 5px;
     background-color: blue;
-    color: white;
-    font-size: 18px;
+
 }
 
-
+.contact-input select{
+    background-color: blue;
+    width: 100;
+}
+.mail {
+    width: 100%;
+}
+.country {
+    width: 100%;
+}
+.place{
+    width: 50%;
+}
 
 
 .register-check{
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
 }
 .contact-details button{
-    width: 200px;
-    height: 40px;
+    width: 220px;
+    height: 50px;
     border-radius: 50px;
     border: none;
     background-color: white;
@@ -741,5 +756,7 @@ input .company{
     color: black;
     font-family: sans-serif;
     font-weight: 550;
+    letter-spacing: 1px;
+    
 }
 
