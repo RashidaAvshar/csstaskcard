@@ -417,6 +417,7 @@ display: flex;
 justify-content: center;
 padding: 100px;
 
+
 }
 
 .sign-box{
@@ -430,6 +431,7 @@ padding: 100px;
     justify-content: space-around;
     font-size: 15px;
     align-items: center;
+    position: relative;
     
     
 }
@@ -437,7 +439,7 @@ padding: 100px;
 
 .signup-girl h1{
     font-size: 70px;
-    font-family: sans-serif;
+    font-family: Verdana, Arial, Tahoma, Serif;
     margin-bottom: 50px;
 }
 .signup-girl input{
@@ -446,7 +448,13 @@ padding: 100px;
     border-bottom: 2px solid gray;
     margin-bottom: 40px;
     width: 445px;
+    font-size: 18px;
+    text-indent: 25px; 
     
+}
+.signup-girl i{
+    position: absolute;
+    margin-top: 12px;
 }
 
 .signgirl img{
@@ -459,21 +467,23 @@ padding: 100px;
 .signgirl {
     text-align: center;
     font-size: 17px;
-    font-family: sans-serif;
+    font-family: Verdana, Arial, Tahoma, Serif;
 }
  
 form .checkbox{
     display: flex;
     flex-direction: row;
-
-    
-    font-family: sans-serif;
+    font-family: Verdana, Arial, Tahoma, Serif;
     font-size: 12px;
+    margin-left: -210px;
+    margin-bottom: 30px;
+}
+form .checkbox p{
+    margin-left: -200px;
 }
 
-
 .signup-girl button{
-    width: 170px;
+    width: 180px;
     height: 70px;
     border-radius: 10px;
     background-color: rgba(91, 180, 236, 0.868);
@@ -483,6 +493,18 @@ form .checkbox{
     font-weight: 550;
 }
 
+.signup-girl button:hover{
+    color: palevioletred;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 
 /* signup boy */
@@ -490,6 +512,20 @@ form .checkbox{
     width: 100%;
     height: 1000px;
     background-color: rgba(51, 255, 140, 0.226);
+}
+
+.sign-boxone{
+    width: 1000px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-around;
+    font-size: 15px;
+    position: relative;
+    
 }
 .signup-boy h2{
     font-size: 60px;
@@ -503,17 +539,24 @@ form .checkbox{
     border-bottom: 2px solid gray;
     margin-bottom: 40px;
     width: 445px;
+    font-size: 18px;
     
 }
 
-
-
+/* menim burda nese sehvim var duzelde bilmirem/ margin left menfi verdim ki sira pozulmasin */
 .remember{
     display: flex;
     flex-direction: row;
-    width: 100px;
-    
+    margin-bottom: 20px;
+    margin-left: -150px;
 }
+
+.remember p{
+    width: 100%;
+    font-size: 20px;
+    margin-left: -130px;
+}
+/* ------------------------------------------------------------------------------------------- */
 
 .signboy img{
     width: 450px;
@@ -530,29 +573,17 @@ form .checkbox{
 .sign-up-boy{
     background-color: rgb(237, 237, 182);
     width: 1180px;
-height: 700px;
-margin: 80px;
-border-radius: 15px;
-display: flex;
-justify-content: center;
-padding: 100px;
-
-}
-
-.sign-boxone{
-    width: 1000px;
-    height: 550px;
-    background-color: white;
-    border-radius: 20px;
+    height: 700px;
+    margin: 80px;
+    border-radius: 15px;
     display: flex;
-    flex-direction: row;
-    padding: 80px;
-    justify-content: space-around;
-    font-size: 15px;
-    align-items: center;
-    
-    
+    flex-direction: column;
+    padding: 100px;
+    flex-wrap: wrap;
+
 }
+
+
 
 .signup-boy h1{
     font-size: 70px;
@@ -564,20 +595,29 @@ padding: 100px;
     border: none;
     border-bottom: 2px solid gray;
     margin-bottom: 40px;
-    width: 300px;
-    
+    text-indent: 25px;
+        
 }
 .signup-boy button{
-    width: 150px;
+    width: 170px;
     height: 60px;
     border-radius: 8px;
     border: none;
-    background-color: rgba(91, 180, 236, 0.868);
+    background-color: rgba(50, 160, 228, 0.868);
     font-size: 20px;
     color: white;
     font-family: sans-serif;
     margin-bottom: 90px;
     font-weight: 550;
+}
+
+.signup-boy button:hover{
+    color: blue;
+    cursor: pointer;
+}
+.signup-boy .fa-user, .fa-unlock-keyhole{
+    position: absolute;
+    margin-top: 10px;
 }
 
 .icon-three{
@@ -615,7 +655,7 @@ padding: 100px;
     padding-top: 170px;
     display: flex;
     justify-content: space-around;
-    font-family: sans-serif;
+    font-family: Verdana, Arial, Tahoma, Serif;
     display: flex;
     flex-wrap: wrap;
 }
@@ -744,8 +784,7 @@ padding: 100px;
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
-    letter-spacing: 1.5px;
-}
+   }
 
 
 .contact-details button{
@@ -758,8 +797,7 @@ padding: 100px;
     color: black;
     font-family: sans-serif;
     font-weight: 550;
-    letter-spacing: 1px;
-    
+      
 }
 
 .contact-details button:hover {
